@@ -1,0 +1,33 @@
+*{
+    font-family: "Audiowide", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    text-align: center;
+    background-color: aqua;
+    padding: 30px;
+}
+
+.container{
+    padding: 30px;
+        background-color:blueviolet;
+
+    button{
+        background-color: aquamarine;
+        padding: 10px 20px;
+        border-radius: 15px;
+    }
+    button:hover{
+        background-color: beige;
+    }
+}
+
+
+footer{
+    text-align: center;
+    background-color: aquamarine;
+    padding: 20px;
+    margin-top: 20px;
+}
