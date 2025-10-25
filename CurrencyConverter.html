@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="CurrencyConverter.css">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+</head>
+
+<body>
+    <header>
+        <h1>Currency Converter</h1>
+    </header>
+
+    <div id="container">
+        <form id="converter-form">
+            <div class="form-group">
+                <label for="amount">Amount: </label>
+                <input type="number" id="amount" placeholder= "Enter Amount:" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="from-currency">From: </label>
+                <select id="from-currency">
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="to-currency">To: </label>
+                <select id="to-currency">
+                </select>
+            </div>
+
+            <button type="submit">Convert</button>
+
+        </form>
+
+        <div id="result">
+            
+        </div>
+    </div>
+    
+    <footer>
+    <p><b>Created by: Jieeun
+    <br><a href="https://github.com/Froggy1018">My Github</a> | <a href="https://www.instagram.com/jess_bob18/">My Instagram</a></b></p>
+    </footer>
+
+    <script src="CurrencyConverter.js"></script>
+    </body>
+</html>
+
