@@ -1,0 +1,68 @@
+*{
+    font-family: "Audiowide", sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #B7B89F;
+}
+
+#title{
+    text-align: center;
+    background-color: #777C6D;
+    padding: 40px;
+    font-size: 25px;
+    color:#B7B89F;
+}
+
+#topnav{
+    padding: 20px;
+    background-color: #B7B89F;
+
+    a{
+        padding: 10px 20px;
+        color: #777C6D;
+    }
+
+    a:hover{
+        background-color: #777C6D;
+        border-radius: 15px;
+        color: #B7B89F;
+    }
+}
+
+.container{
+    padding: 30px;
+        background-color:#777C6D;
+        color: #B7B89F;
+}
+
+footer{
+    margin-top: 0;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    a{
+        color: #B7B89F;
+    }
+}
+
+body{
+    background-color: #777C6D;
+}
+
+button{
+    padding: 10px 20px;
+    font-size: 25px;
+    background-color: #777C6D;
+    color: #B7B89F;
+    border: #B7B89F solid 2px;
+    border-radius: 15px;
+    width: 100%;
+    cursor: pointer;
+    margin-bottom: 20px;
+
+    &:hover{
+        color: #B7B89F;
+        background-color: #777C6D;
+        transform: translateY(-2px);
+    }
+}
