@@ -49,7 +49,9 @@
 footer{
     margin-top: 0;
     text-align: center;
-    background-color: aquamarine;
     padding: 20px;
     margin-top: 20px;
+    a{
+        color: #B7B89F;
+    }
 }
