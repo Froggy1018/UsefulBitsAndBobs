@@ -4,36 +4,32 @@
     font-family: "Audiowide", sans-serif;
 }
 
-#leftdiv{
-    text-align: left;
-    background-color:bisque;
-    width: fit-content;
+#topnav{
     padding: 20px;
-    display: inline-block;
-    vertical-align: top;
+    background-color: #B7B89F;
 
     a{
-        background-color: aquamarine;
         padding: 10px 20px;
-        border-radius: 15px;
+        color: #777C6D;
     }
 
     a:hover{
-        background-color: beige;
+        background-color: #777C6D;
+        border-radius: 15px;
+        color: #B7B89F;
     }
 }
 
 #title{
     text-align: center;
-    background-color: blanchedalmond;
+    background-color: #777C6D;
     padding: 40px;
     font-size: 30px;
+    color:#B7B89F;
 }
 
 #container{
-    display: inline-block;
-    vertical-align: top;
-    background-color:blueviolet;
+    background-color:#CBCBCB;
     padding: 30px;
     p{
         text-align: center;
