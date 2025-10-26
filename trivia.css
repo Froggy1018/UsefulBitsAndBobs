@@ -38,6 +38,7 @@
         color: #777C6D;
         padding: 10px 20px;
         border-radius: 15px;
+        border: none;
     }
     button:hover{
         background-color: #777C6D;
@@ -54,4 +55,22 @@ footer{
     a{
         color: #B7B89F;
     }
+    button{
+        padding: 10px 20px;
+        font-size: 25px;
+        background-color: #777C6D;
+        color: #B7B89F;
+        border: #B7B89F solid 2px;
+        border-radius: 15px;
+        width: 100%;
+        cursor: pointer;
+        margin-bottom: 20px;
+
+        &:hover{
+            color: #B7B89F;
+            background-color: #777C6D;
+            transform: translateY(-2px);
+        }
+    }
+
 }
