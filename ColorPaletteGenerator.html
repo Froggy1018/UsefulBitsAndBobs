@@ -3,14 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="ColorPaletteGenerator.css">
-    <title>Currency Converter</title>
+    <title>Color Palette Generator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
 </head>
 
 <body>
 
     <div id="title">
-        <h1>Useful Bits and Bobs</h1>
+        <h1>Color Palette Generator</h1>
     </div>
 
     <div id="topnav">
@@ -20,22 +21,61 @@
         <a href="Trivia.html">Trivia</a>
     </div>
 
-    <header>
-        <h1>Currency Converter</h1>
-    </header>
+    <div id="container">
+
+        <button id="generate">
+            <i class="fas fa-sync-alt"></i>
+            Generate Color Palette
+        </button>
+        
+        <div id="boxes">
+            <div class="palette">
+                <div class="color" style="background-color: #777"></div>
+                <div class="colorid">
+                    <span class="hex-value">#777</span>
+                    <i class="far fa-copy copy-btn" title="Copy to Clipboard"></i>
+                </div>
+            </div>
+
+            <div class="palette">
+                <div class="color" style="background-color: #777"></div>
+                <div class="colorid">
+                    <span class="hex-value">#777</span>
+                    <i class="far fa-copy copy-btn" title="Copy to Clipboard"></i>
+                </div>
+            </div>
+
+            <div class="palette">
+                <div class="color" style="background-color: #777"></div>
+                <div class="colorid">
+                    <span class="hex-value">#777</span>
+                    <i class="far fa-copy copy-btn" title="Copy to Clipboard"></i>
+                </div>
+            </div>
+
+            <div class="palette">
+                <div class="color" style="background-color: #777"></div>
+                <div class="colorid">
+                    <span class="hex-value">#777</span>
+                    <i class="far fa-copy copy-btn" title="Copy to Clipboard"></i>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
         <div id="bottom"> 
             <button onclick = "window.location.href='main.html'">Return to Main Page</button>
         </div>
+        <footer>
+            <p><b>Created by: Jieeun
+            <br><a href="https://github.com/Froggy1018">My Github</a> | <a href="https://www.instagram.com/jess_bob18/">My Instagram</a></b></p>
+        </footer>
     </div>
     
-    <footer>
-    <p><b>Created by: Jieeun
-    <br><a href="https://github.com/Froggy1018">My Github</a> | <a href="https://www.instagram.com/jess_bob18/">My Instagram</a></b></p>
-    </footer>
 
-    <script src="CurrencyConverter.js"></script>
+
+    <script src="ColorPaletteGenerator.js"></script>
     </body>
 </html>
 
