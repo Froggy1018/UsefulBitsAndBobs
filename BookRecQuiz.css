@@ -66,3 +66,19 @@ button{
         transform: translateY(-2px);
     }
 }
+
+h3{
+    margin-top: 15px;
+    margin-left: 15px;
+    font-size: 30px;
+}
+
+input{
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+label{
+    font-size: 25px;
+
+}
