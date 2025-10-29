@@ -21,6 +21,38 @@
     </div>
 
     <div id="container"> 
+
+        <div id="quizqs">
+            <form action="results.html" method="get">
+                <h3>1. What is your favorite genre?</h3>
+                <input type="checkbox" id="fantasy" name="genre" value="fantasy">
+                <label for="fantasy">Fantasy</label><br>
+                <input type="checkbox" id="mystery" name="genre" value="mystery">
+                <label for="mystery">Mystery</label><br>
+                <input type="checkbox" id="romance" name="genre" value="romance">
+                <label for="romance">Romance</label><br>
+                <input type="checkbox" id="sci-fi" name="genre" value="sci-fi">
+                <label for="sci-fi">Science Fiction</label><br>
+                <input type="checkbox" id="non-fiction" name="genre" value="non-fiction">
+                <label for="non-fiction">Non-Fiction</label><br><br>
+
+                <h3>2. Series or Standalone?</h3>
+                <input type="radio" id="series" name="type" value="series" required>
+                <label for="series">Series</label><br>
+                <input type="radio" id="standalone" name="type" value="standalone">
+                <label for="standalone">Standalone</label><br><br>
+
+                <h3>3. Book Length?</h3>
+                <input type="radio" id="short" name="length" value="short" required>
+                <label for="short">Short (Under 300 pages)</label><br>
+                <input type="radio" id="medium" name="length" value="medium">
+                <label for="medium">Medium (Under 300-600 pages)</label><br>
+                <input type="radio" id="long" name="length" value="long">
+                <label for="long">Long (Over 600 pages)</label><br>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+
         <footer>
             <button onclick = "window.location.href='main.html'">Return to Main Page</button>
             <p><b>Created by: Jieeun
