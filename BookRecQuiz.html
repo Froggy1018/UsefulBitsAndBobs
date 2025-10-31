@@ -23,7 +23,7 @@
     <div id="container"> 
 
         <div id="quizqs">
-            <form action="results.html" method="get">
+            <form id="quizbook">
                 <h3>1. What is your favorite genre?</h3>
                 <input type="checkbox" id="fantasy" name="genre" value="fantasy">
                 <label for="fantasy">Fantasy</label><br>
@@ -52,9 +52,25 @@
                 <button type="submit">Submit</button>
             </form>
         </div>
+        <div id="loading" class="loading">
+            <div class="spinner"></div>
+            <p>Loading your recommendations...</p>
+        </div>
+        
+        <div class="error" id="error"></div>
+
+        <div id="results" class="results">
+            <div class="results-container">
+                <h2>Your Book Recommendations:</h2>
+                <button id="backtoform">Change Preferences</button>
+            </div>
+            <div id="books">
+
+            </div>
+        </div>
 
         <footer>
-            <button onclick = "window.location.href='main.html'">Return to Main Page</button>
+            <button onclick = "window.location.href='index.html'">Return to Main Page</button>
             <p><b>Created by: Jieeun
             <br><a href="https://github.com/Froggy1018">My Github</a> | <a href="https://www.instagram.com/jess_bob18/">My Instagram</a></b></p>
         </footer>
